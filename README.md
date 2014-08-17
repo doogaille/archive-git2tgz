@@ -9,6 +9,7 @@ Install
 ---------
 
 * Install php5 client :
+
 <pre>
 apt-get install php5-cli git tar
 </pre>
@@ -26,6 +27,7 @@ Configure
 ---------
 
 * Edit config
+
 <pre>vim /opt/archive-git2tgz/main.php</pre>
 
  * Setup variables (according to your environnement) $dirTemp, $dirFinal
@@ -34,8 +36,10 @@ Run
 ----------
 
  * Run :
-    archive_git2tgz
 
+<pre>
+archive_git2tgz
+</pre>
 
 TODO
 ---------
