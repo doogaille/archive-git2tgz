@@ -9,19 +9,24 @@ Install
 ---------
 
 * Install php5 client :
-    apt-get install php5-cli git tar
+<pre>
+apt-get install php5-cli git tar
+</pre>
 
 * Git clone :
-    cd /opt/
-    git clone https://github.com/doogaille/archive-git2tgz.git
-    chmod -x archive-git2tgz/main.php
-    ln -s archive-git2tgz/main.php /usr/local/sbin/archive_git2tgz
+
+<pre>
+cd /opt/
+git clone https://github.com/doogaille/archive-git2tgz.git
+chmod -x archive-git2tgz/main.php
+ln -s archive-git2tgz/main.php /usr/local/sbin/archive_git2tgz
+</pre>
 
 Configure
 ---------
 
 * Edit config
-    vim /opt/archive-git2tgz/main.php
+<pre>vim /opt/archive-git2tgz/main.php</pre>
 
  * Setup variables (according to your environnement) $dirTemp, $dirFinal
 
