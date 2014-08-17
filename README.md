@@ -3,13 +3,13 @@ archive-git2tgz
 
 Archive creator that pull from a set of git repository and produce a directory tree of tar.gz files
 
-Compatibility (Debian)
+Tested under system : Debian 6 and 7.1
 
 Install
 ---------
 
 * Install php5 client :
- apt-get install php5-cli
+ apt-get install php5-cli git tar
 
 * Git clone :
  cd /opt/
@@ -23,16 +23,17 @@ Configure
 * Edit config
  vim /opt/archive-git2tgz/main.php
 
-Setup $dirTemp, $dirFinal
+ * Setup variables : $dirTemp, $dirFinal
 
 Run
 ----------
 
- just run cmd : archive_git2tgz
+ * Run :
+ archive_git2tgz
 
 
 TODO
 ---------
 
 * Documentation for other Plateform setup (Gentoo, BSD, OSX, Win).
-* 
+* Try => issue => try => issue => try ;-)
