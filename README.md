@@ -9,7 +9,7 @@ Install
 ---------
 
 * Install php5 client :
- apt-get install php5-cli git tar
+ # apt-get install php5-cli git tar
 
 * Git clone :
  cd /opt/
