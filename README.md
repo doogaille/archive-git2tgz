@@ -46,6 +46,22 @@ Run
 archive_git2tgz
 </pre>
 
+Result
+----------
+
+This script produce a directory tree like this :
+<pre>
+repFinal
+  |-> nomdepot/
+  |      |-> nomdepot-git-HASHGIT.tar.gz
+  |      |-> nomdepot-git-HASHGIT.tar.gz
+  |      \-> nomdepot-latest.tar.gz (symlink on last tar.gz)
+  |
+  |-> nomdepot2/
+         |-> nomdepot2-git-HASHGIT.tar.gz
+         \-> nomdepot2-latest.tar.gz (symlink on last tar.gz)
+</pre>
+
 TODO
 ---------
 
