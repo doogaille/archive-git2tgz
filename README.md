@@ -8,17 +8,22 @@ Tested under : Debian 6 and 7.1
 Install
 ---------
 
-* Install php5 client :
+* Setup environnement
 
 <pre>
 apt-get install php5-cli git tar
 </pre>
 
-* Git clone :
+* Get source
 
 <pre>
 cd /opt/
 git clone https://github.com/doogaille/archive-git2tgz.git
+</pre>
+
+* Setup system link
+
+<pre>
 chmod -x archive-git2tgz/main.php
 ln -s archive-git2tgz/main.php /usr/local/sbin/archive_git2tgz
 </pre>
