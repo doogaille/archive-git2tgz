@@ -2,6 +2,11 @@
 
 <?php
 
+// main.php
+// Last modified: 2014-08-17
+// Author: Yohann QUINTON <yohann.quinton@awedia.com>
+// License: GNU GPL http://www.gnu.org/licenses/gpl.html
+
 /****************************** CONFIGURATION *******************************/
 $dirTemp = "/tmp/archive_git2tgz/";     //Temp directory
 $dirFinal = "/var/www/sources/";        //Final directory
