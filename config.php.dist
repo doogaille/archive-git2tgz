@@ -1,0 +1,13 @@
+<?php
+
+$tmp_dir = "/tmp/archive_git2tgz/";
+$final_dir = "/var/www/sources/";
+
+// Remove tmp_dir at the end of process
+$remove_tmp_dir = false;
+
+$repos = array();
+
+// Define project name and project url
+$repos['git-config'] = 'https://github.com/ChoiZ/git-config.git';
+$repos['root-config'] = 'https://github.com/ChoiZ/root-config.git';
