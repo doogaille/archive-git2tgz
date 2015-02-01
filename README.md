@@ -8,19 +8,16 @@ Tested under : Debian 6, 7.1 and 8.
 Install
 -------
 
-* Setup environnement
-
+Setup environnement
 
     apt-get install php5-cli git tar
 
-* Get source
-
+Get source
 
     cd /opt/
     git clone https://github.com/doogaille/archive-git2tgz.git
 
-* Setup system link
-
+Setup system link
 
     chmod -x archive-git2tgz/main.php
     ln -s archive-git2tgz/main.php /usr/local/sbin/archive_git2tgz
@@ -28,19 +25,15 @@ Install
 Configure
 ---------
 
-* Edit config
-
+Edit config
 
     cp /opt/archive-git2tgz/config.php.dist /opt/archive-git2tgz/config.php
     vim /opt/archive-git2tgz/config.php
 
-* Setup variables (according to your environnement) `$tmp_dir`, `$final_dir`, and add repository to `$repos` array.
+Setup variables (according to your environnement) `$tmp_dir`, `$final_dir`, and add repository to `$repos` array.
 
 Run
 ---
-
- * Run :
-
 
     archive_git2tgz
 
