@@ -10,14 +10,17 @@ Install
 
 * Setup environnement
 
+
     apt-get install php5-cli git tar
 
 * Get source
+
 
     cd /opt/
     git clone https://github.com/doogaille/archive-git2tgz.git
 
 * Setup system link
+
 
     chmod -x archive-git2tgz/main.php
     ln -s archive-git2tgz/main.php /usr/local/sbin/archive_git2tgz
@@ -26,6 +29,7 @@ Configure
 ---------
 
 * Edit config
+
 
     cp /opt/archive-git2tgz/config.php.dist /opt/archive-git2tgz/config.php
     vim /opt/archive-git2tgz/config.php
@@ -36,6 +40,7 @@ Run
 ---
 
  * Run :
+
 
     archive_git2tgz
 
